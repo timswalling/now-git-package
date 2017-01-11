@@ -1,0 +1,15 @@
+{
+  "name": "now-git-package",
+  "version": "0.0.0",
+  "description": "Test package to demonstrate issues installing git-based packages in Zeit's (otherwise excellent) Now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tswalling/now-git-package.git"
+  },
+  "author": "Tim Swalling <tim@timswalling.com>",
+  "license": "UNLICENSED"
+}
